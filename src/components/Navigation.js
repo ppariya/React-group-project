@@ -5,7 +5,7 @@ import "../css/Navigation.css"
 const Navigation = () => {
     return (
         <div>
-            <ul style={{backgroundColor: "black"}}>
+            <ul style={{backgroundColor: "black", paddingTop:"20px"}}>
                 <li style={{marginLeft: "50px"}}><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/bookshelf">Bookshelf</NavLink></li>
                 <li><NavLink to="/buy">Buy</NavLink></li>
